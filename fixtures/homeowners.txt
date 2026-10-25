@@ -1,0 +1,30 @@
+DECLARATIONS PAGE - HOMEOWNERS POLICY (SYNTHETIC FIXTURE)
+
+== POLICY ==
+Policy Type: homeowners
+Carrier: Harborline Casualty (fictional)
+Policy Number: HOP-2026-7781
+Named Insured: Household Member A (synthetic)
+Status: active
+
+== COVERED ==
+Covered Person: member-a
+Covered Asset: home-1
+
+== COVERAGES ==
+Coverage: Dwelling | Limit: 425000 | Deductible: 1000
+Coverage: Personal Property | Limit: 210000 | Deductible: 1000
+Coverage: Loss of Use | Limit: 85000 | Deductible: none
+Coverage: Personal Liability | Limit: 300000 | Deductible: none
+
+== PREMIUM ==
+Premium Amount: 1480.00
+Premium Period: 12 months
+Prior Premium Amount: 1410.00
+
+== DATES ==
+Effective Date: 2025-12-15
+Renewal Date: 2026-12-15
+Premium Due Date: 2026-12-01
+Grace Period End: 2026-12-31
+Escrow Proof Deadline: 2026-11-20

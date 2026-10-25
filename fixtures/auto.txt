@@ -1,0 +1,29 @@
+DECLARATIONS PAGE - PERSONAL AUTO POLICY (SYNTHETIC FIXTURE)
+
+== POLICY ==
+Policy Type: auto
+Carrier: Cascade Mutual (fictional)
+Policy Number: PAP-2026-1042
+Named Insured: Household Member A (synthetic)
+Status: active
+
+== COVERED ==
+Covered Person: member-a
+Covered Asset: vehicle-1
+
+== COVERAGES ==
+Coverage: Bodily Injury Liability | Limit: 250000 | Deductible: none
+Coverage: Property Damage Liability | Limit: 100000 | Deductible: none
+Coverage: Collision | Limit: 45000 | Deductible: 500
+Coverage: Comprehensive | Limit: 45000 | Deductible: 250
+
+== PREMIUM ==
+Premium Amount: 612.00
+Premium Period: 6 months
+Prior Premium Amount: 505.00
+
+== DATES ==
+Effective Date: 2026-09-01
+Renewal Date: 2027-03-01
+Premium Due Date: 2026-11-05
+Grace Period End: 2026-11-20

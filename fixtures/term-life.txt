@@ -1,0 +1,25 @@
+DECLARATIONS PAGE - TERM LIFE POLICY (SYNTHETIC FIXTURE)
+
+== POLICY ==
+Policy Type: term_life
+Carrier: Northbeam Life (fictional)
+Policy Number: TLP-2026-3099
+Named Insured: Household Member A (synthetic)
+Status: active
+
+== COVERED ==
+Covered Person: member-a
+
+== COVERAGES ==
+Coverage: Term Life Death Benefit | Limit: 500000 | Deductible: none
+
+== PREMIUM ==
+Premium Amount: 612.00
+Premium Period: 12 months
+Prior Premium Amount: 612.00
+
+== DATES ==
+Effective Date: 2021-06-15
+Renewal Date: 2027-06-15
+Premium Due Date: 2026-11-08
+Grace Period End: 2026-12-08

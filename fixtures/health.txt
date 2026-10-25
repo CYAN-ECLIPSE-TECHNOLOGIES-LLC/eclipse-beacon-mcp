@@ -1,0 +1,26 @@
+DECLARATIONS PAGE - HEALTH PLAN (SYNTHETIC FIXTURE)
+
+== POLICY ==
+Policy Type: health
+Carrier: Clearpath Health Plan (fictional)
+Policy Number: CHP-2026-5520
+Named Insured: Household Member A (synthetic)
+Status: active
+
+== COVERED ==
+Covered Person: member-a
+
+== COVERAGES ==
+Coverage: Medical (HMO) | Limit: none | Deductible: 1500
+Coverage: Prescription Drugs | Limit: none | Deductible: 250
+
+== PREMIUM ==
+Premium Amount: 438.00
+Premium Period: 1 month
+Prior Premium Amount: 421.00
+
+== DATES ==
+Effective Date: 2026-01-01
+Renewal Date: 2027-01-01
+Premium Due Date: 2026-11-01
+Grace Period End: 2026-11-30

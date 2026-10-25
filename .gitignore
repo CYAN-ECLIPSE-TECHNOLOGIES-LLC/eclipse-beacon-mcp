@@ -1,0 +1,10 @@
+# Beacon state holds a household's policy graph — never commit it.
+data/
+__pycache__/
+*.pyc
+keys/
+*.key
+*.pem
+.env
+.env.*
+state/
