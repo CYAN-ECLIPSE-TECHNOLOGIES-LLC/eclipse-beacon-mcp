@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Eclipse Beacon MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+
 """Eclipse Beacon MCP — v0.1.0, phase B0 (personal edition).
 
 Powered by Cyan Eclipse Technologies (cetech.ai).
@@ -555,3 +558,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Beacon MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

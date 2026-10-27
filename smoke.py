@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Beacon MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Smoke: drive server.py over real stdio with a temp state file.
+
 """Smoke: drive server.py over real stdio with a temp state file.
 Ingests the synthetic fixtures (confirm), runs radar + gap, prints a
 compact transcript. Uses NO real data and makes NO network calls."""
@@ -70,3 +74,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Beacon MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

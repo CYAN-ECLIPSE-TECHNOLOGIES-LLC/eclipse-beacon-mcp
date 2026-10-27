@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Beacon MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Beacon v0.1 (B0) — unit tests. Run: python3 -m unittest discover tests
+
 """Eclipse Beacon v0.1 (B0) — unit tests. Run: python3 -m unittest discover tests"""
 import copy
 import json
@@ -203,3 +207,5 @@ class TestTransport(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Eclipse Beacon MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai
