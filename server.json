@@ -1,0 +1,8 @@
+{
+ "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+ "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/beacon",
+ "title": "Eclipse Beacon MCP",
+ "description": "The insurance watcher \u2014 signals your policies' expiries before they happen. It does not insure",
+ "version": "0.1.0",
+ "websiteUrl": "https://eclipsebazaar.com"
+}
