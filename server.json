@@ -3,7 +3,7 @@
  "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/beacon",
  "title": "Eclipse Beacon MCP",
  "description": "The insurance watcher — signals your policies' expiries before they happen. It does not insure",
- "version": "0.1.0",
+ "version": "0.1.1",
  "websiteUrl": "https://eclipsebazaar.com",
  "repository": {
   "source": "github",
@@ -24,14 +24,6 @@
    "identifier": "eclipse-beacon",
    "version": "0.1.0",
    "runtimeHint": "uvx",
-   "transport": {
-    "type": "stdio"
-   }
-  },
-  {
-   "registryType": "oci",
-   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-beacon-mcp:0.1.0",
-   "runtimeHint": "docker",
    "transport": {
     "type": "stdio"
    }
