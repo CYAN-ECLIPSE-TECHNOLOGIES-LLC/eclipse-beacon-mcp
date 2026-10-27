@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eclipse-beacon"
+version = "0.1.0"
+description = "Eclipse Beacon MCP — the insurance watcher: it watches your household's policies, signals expiries before they happen, and prepares the actions you approve. It does not insure, bind, or advise."
+readme = "PYPI_README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Cyan Eclipse Technologies LLC" },
+]
+keywords = ["mcp", "model-context-protocol", "insurance", "policy", "expiry", "watcher"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://cetech.ai"
+Repository = "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-beacon-mcp"
+Vendor = "https://cetech.ai"
+
+[project.scripts]
+eclipse-beacon = "server:main"
+
+# Flat layout: the server module + synthetic fixtures shipped at the
+# wheel root (the server resolves its state beside server.py).
+[tool.hatch.build.targets.wheel.force-include]
+"server.py" = "server.py"
+"fixtures/auto.json" = "fixtures/auto.json"
+"fixtures/auto.txt" = "fixtures/auto.txt"
+"fixtures/health.json" = "fixtures/health.json"
+"fixtures/health.txt" = "fixtures/health.txt"
+"fixtures/homeowners.json" = "fixtures/homeowners.json"
+"fixtures/homeowners.txt" = "fixtures/homeowners.txt"
+"fixtures/household.json" = "fixtures/household.json"
+"fixtures/term-life.json" = "fixtures/term-life.json"
+"fixtures/term-life.txt" = "fixtures/term-life.txt"
+
+[tool.hatch.build.targets.sdist]
+packages = ["."]

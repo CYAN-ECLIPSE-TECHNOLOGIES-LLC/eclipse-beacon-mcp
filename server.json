@@ -2,7 +2,39 @@
  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
  "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/beacon",
  "title": "Eclipse Beacon MCP",
- "description": "The insurance watcher \u2014 signals your policies' expiries before they happen. It does not insure",
+ "description": "The insurance watcher — signals your policies' expiries before they happen. It does not insure",
  "version": "0.1.0",
- "websiteUrl": "https://eclipsebazaar.com"
+ "websiteUrl": "https://eclipsebazaar.com",
+ "repository": {
+  "source": "github",
+  "url": "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-beacon-mcp"
+ },
+ "icons": [
+  {
+   "src": "https://raw.githubusercontent.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-beacon-mcp/main/icon-512.png",
+   "mimeType": "image/png",
+   "sizes": [
+    "512x512"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "registryType": "pypi",
+   "identifier": "eclipse-beacon",
+   "version": "0.1.0",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   }
+  },
+  {
+   "registryType": "oci",
+   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-beacon-mcp:0.1.0",
+   "runtimeHint": "docker",
+   "transport": {
+    "type": "stdio"
+   }
+  }
+ ]
 }
