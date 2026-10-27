@@ -43,5 +43,3 @@ eclipse-beacon = "server:main"
 "fixtures/term-life.json" = "fixtures/term-life.json"
 "fixtures/term-life.txt" = "fixtures/term-life.txt"
 
-[tool.hatch.build.targets.sdist]
-packages = ["."]

@@ -1,5 +1,7 @@
 # eclipse-beacon
 
+mcp-name: io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/beacon
+
 **What this is:** `eclipse-beacon` is the MCP server edition of
 **Eclipse Beacon** — Cyan Eclipse Technologies' insurance watcher: it
 watches your household's policies, signals expiries before they
